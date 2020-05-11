@@ -21,7 +21,7 @@ if __name__ == '__main__':
     t_cy = time_function(ex_fib_cy.get_series, x=10_000)
     print(f'ex_fib: t_py={t_py:.6f}, t_cy={t_cy:.6f}')
 
-    array = np.random.randint(100, size=1_000)
+    array = np.random.randint(100, size=1_000, dtype=np.int32)
     t_py = time_function(ex_sort_py.sort, x=array)
     t_cy = time_function(ex_sort_cy.sort, x=array)
     print(f'ex_sort: t_py={t_py:.6f}, t_cy={t_cy:.6f}')

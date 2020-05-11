@@ -1,5 +1,20 @@
 # Cython Exploration
 
+## Cython Installation
+
+```
+pip install cython
+```
+
+
+## C Compiler Installation
+
+### Linux Installation
+The GNU C Compiler (gcc) should be available by default in e.g. Ubuntu. If not, it can be installed using
+```
+sudo apt-get install build-essential
+``` 
+
 ## Windows Installation
 https://cython.readthedocs.io/en/latest/src/quickstart/install.html
 https://superuser.com/questions/1479075/installing-anaconda-on-git-bash-and-trying-conda-activate-results-in-repeated-co
@@ -19,11 +34,6 @@ https://superuser.com/questions/1479075/installing-anaconda-on-git-bash-and-tryi
     * E.g. Anaconda environment named `cython`:
         * `C:\Users\<user>\Anaconda3\envs\cython\Lib\distutils\distutils.cfg`
 
-### Install Cython
-
-```
-pip install cython
-```
 
 # Usage
 https://pythonprogramming.net/introduction-and-basics-cython-tutorial/
