@@ -12,7 +12,6 @@ def time_function(f, x):
 
 
 if __name__ == '__main__':
-        
     t_py = time_function(ex_sum_py.get_sum, x=1_000_000)
     t_cy = time_function(ex_sum_cy.get_sum, x=1_000_000)
     print(f'ex_sum: t_py={t_py:.6f}, t_cy={t_cy:.6f}')
